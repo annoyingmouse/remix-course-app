@@ -1,8 +1,6 @@
-import {Outlet} from "@remix-run/react";
-
 export default function ExpensesPage() {
   return <main>
-    <p>Shared element!.</p>
-    <Outlet />
+    <h1>Expenses Page</h1>
+
   </main>;
 }
